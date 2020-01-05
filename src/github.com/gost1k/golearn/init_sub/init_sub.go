@@ -1,4 +1,4 @@
-package init_test
+package init_sub
 
 import "fmt"
 
