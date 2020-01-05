@@ -11,5 +11,5 @@ func init() {
 
 func main() {
 	fmt.Println("init.go MAIN")
-
+	fmt.Println(.Calc(2, 3))
 }
