@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/gost1k/init_test"
 )
 
 func init() {
