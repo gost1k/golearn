@@ -2,14 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/gost1k/golearn/init_sub"
+	c "github.com/gost1k/golearn/init_sub"
+	"github.com/gost1k/golearn/some_sub_folder"
 )
 
 func init() {
-	fmt.Println("init.go INIT")
+	fmt.Println("INIT INIT")
 }
 
 func main() {
-	fmt.Println("init.go MAIN")
-	fmt.Println(.Calc(2, 3))
+	fmt.Println("INIT MAIN")
+	fmt.Println(c.Calc(2, 3))
+	fmt.Println(ex.Ex(22, 11))
 }
